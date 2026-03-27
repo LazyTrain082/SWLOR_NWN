@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using SWLOR.Game.Server.Core.NWNX.Enum;
 using SWLOR.Game.Server.Enumeration;
@@ -96,6 +96,8 @@ namespace SWLOR.Game.Server.Entity
         public int Version { get; set; }
         [Indexed]
         public string Name { get; set; }
+        public string DisguiseAlias { get; set; }
+        public string DisguiseOriginalName { get; set; }
         public int MaxHP { get; set; }
         public int MaxFP { get; set; }
         public int MaxStamina { get; set; }
